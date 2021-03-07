@@ -1,39 +1,42 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 }
 
-nav{
+nav {
     overflow: hidden;
     background-color: #112938;
+    height: 10vh;
 }
 
-nav a{
+nav a {
     float: left;
-    display: block;
-    color: #CC4B0F;
+    color: #cc4b0f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    height: 10vh;
+    line-height: 6vh;
 }
 
-nav a:hover{
-    background-color: #CC4B0F;
+nav a:hover {
+    background-color: #cc4b0f;
     color: #112938;
 }
 
-main{
-    background-color: white;
+main {
     color: #112938;
     padding: 10px;
-    height: 200px;
+    height: 80vh;
 }
 
-footer{
-    color: white;
+footer {
+    color: #fff;
     background-color: #112938;
-    padding: 10px;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh
 }
